@@ -1,11 +1,11 @@
 ## Critical CSRF Vulnerability in admin/profile.php Endpoint
 
 ## Vulnerability Details:
-Application Name: GetSimple CMS
-Software Link: [Download GetSimpleCMS v3.3.16](https://github.com/GetSimpleCMS/GetSimpleCMS/archive/refs/tags/v3.3.16.zip)
-Vendor Homepage: [Vendor Homepage](https://github.com/tablatronix)
-BUG: Cross-Site Request Forgery
-BUG Author: Zeynalxan
+**Application Name:** GetSimple CMS  
+**Software Link:** [Download GetSimpleCMS v3.3.16](https://github.com/GetSimpleCMS/GetSimpleCMS/archive/refs/tags/v3.3.16.zip)  
+**Vendor Homepage:** [Vendor Homepage](https://get-simple.info/)  
+**BUG:** Cross-Site Request Forgery  
+**BUG Author:** Zeynalxan
 
 ### Vulnerability Overview
 A Cross-Site Request Forgery (CSRF) vulnerability was identified in the `admin/profile.php` endpoint of the application. This vulnerability allows an attacker to perform unauthorized actions on behalf of an authenticated user without their consent, potentially compromising user accounts and sensitive information.
